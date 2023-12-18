@@ -1,0 +1,7 @@
+spring:
+  main:
+    banner-mode: off
+  datasource:
+    url: jdbc:tc:postgresql:13.9:///databasename
+  jpa:
+    show-sql: true

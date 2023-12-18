@@ -1,0 +1,1 @@
+insert into delivery_day (id, delivery_date) values (1, '2050-01-01')
