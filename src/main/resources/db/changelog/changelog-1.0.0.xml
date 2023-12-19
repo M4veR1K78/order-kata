@@ -13,4 +13,23 @@
       </column>
     </createTable>
   </changeSet>
+  <changeSet id="KATA-1_2" author="btresse">
+    <createTable tableName="order">
+      <column name="id" type="bigserial">
+        <constraints primaryKey="true"/>
+      </column>
+      <column name="delivery_day_id" type="bigint">
+        <constraints nullable="false"/>
+      </column>
+      <column name="status" type="text">
+        <constraints nullable="false"/>
+      </column>
+      <column name="nb_items" type="int">
+        <constraints nullable="false"/>
+      </column>
+      <column name="type" type="text">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+  </changeSet>
 </databaseChangeLog>

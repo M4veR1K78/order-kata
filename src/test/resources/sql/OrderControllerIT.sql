@@ -1,1 +1,7 @@
 insert into delivery_day (id, delivery_date) values (1, '2050-01-01')
+insert into delivery_day (id, delivery_date) values (2, '2050-01-01')
+insert into delivery_day (id, delivery_date) values (3, '2050-01-01')
+insert into delivery_day (id, delivery_date) values (4, '2022-01-01')
+insert into delivery_day (id, delivery_date) values (5, '2050-01-01')
+insert into "order" (status, nb_items, delivery_day_id, type) values ('VALIDATED', 10, 3, 'REGULAR')
+insert into "order" (status, nb_items, delivery_day_id, type) values ('DRAFT', 10, 5, 'REGULAR')
